@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ahmads Test Deployment</title>
+</head>
+<body>
+    <h1>This is a test deployment from GitHub to EC2</h1>
+    <p>Deployed automatically using Personal Access Token (PAT).</p>
+</body>
+</html>
