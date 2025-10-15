@@ -1,11 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ahmads Test Deployment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad's Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about, .projects, .contact {
+      background: white;
+      margin-bottom: 40px;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.2s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>This is a test deployment from GitHub todfsd heloooo321 99EC2</h1>
-    <p>Deployed automatically using Personal Access cvxvxcToken (PAT).</p>
+
+  <header>
+    <h1>Ahmad's Portfolio</h1>
+    <p>Welcome! I'm Ahmad, a passionate developer exploring web and cloud technologies.</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Ahmad. I love building projects, learning new technologies, and sharing knowledge. My focus is on web development, DevOps, and cloud computing.</p>
+  </section>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A web app built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Docker-based application deployment with CI/CD.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Cloud infrastructure automation using Terraform and AWS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ahmad@example.com">ahmad@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ahmad" target="_blank">linkedin.com/in/ahmad</a></p>
+    <p>GitHub: <a href="https://github.com/ahmad" target="_blank">github.com/ahmad</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Ahmad. All rights reserved.
+  </footer>
+
 </body>
 </html>
 
