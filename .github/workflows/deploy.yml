@@ -25,7 +25,6 @@ jobs:
             echo "Starting deployment on EC2..."
             cd /var/www/html
             sudo rm -f index.html
-            # Download the correct file from GitHub and save as index.html
-            sudo wget -O index.html https://raw.githubusercontent.com/${{ github.repository }}/main/index1.html
+            sudo wget --no-cache --tries=3 -O index.html https://raw.githubusercontent.com/${{ github.repository }}/main/index1.html
             sudo systemctl restart apache2
             echo "Deployment complete!"
